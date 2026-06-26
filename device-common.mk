@@ -140,6 +140,11 @@ PRODUCT_PACKAGES += \
     QualifiedNetworksService \
     PhhIms
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.dbg.allow_ims_off=1
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.exynos990 \
