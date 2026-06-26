@@ -146,7 +146,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.allow_ims_off=1
 
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/privapp-permissions-me.phh.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.ims.xml
+    $(LOCAL_PATH)/privapp-permissions-me.phh.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.ims.xml
 
 # Init
 PRODUCT_PACKAGES += \
